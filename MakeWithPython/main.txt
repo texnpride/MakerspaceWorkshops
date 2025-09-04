@@ -1,0 +1,47 @@
+"""
+file: main.py
+author: sean scully, Make with Python, 1/31/2022
+
+
+It is always a good idea to have a heading in your code to:
+- credit sources
+- talk about what the code should do
+- detail who/when/why/how of the code
+- mention any future functionality
+- talk about 'terms of use'  
+
+"""
+
+for i in range(5):
+  print('A number:', i)
+# Welcome to loops!
+"""
+# large block of comments
+
+print(i)
+
+"""
+""""
+# Helpful when you want to temporarily "turn off" sections of code
+
+f = open('image.txt', 'r')
+file_contents = f.read()
+print(file_contents)
+f.close()
+"""
+a = (3 + 4) * 2
+print(a)
+b = 3 + 4 * 2
+print(b)
+
+# this is a very helpful command to utilize when processing
+# large amounts of data you need to make more uniform for easier processing
+str = 'dude!'
+print(str)
+str = str.upper()
+print(str)
+print(type(i))
+print(type(str))
+print(type(b))
+
+# help (float)
